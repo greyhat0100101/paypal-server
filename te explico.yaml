@@ -1,0 +1,87 @@
+te explico 
+
+Cuando un empleado Trabaja mas de 8 horas al dias cuanta como overtime.. y el monto completo al dia si es que pasa de las 8 Horas.
+
+Cuando un empleado pasa de las 8 Horas al dia debe enviar un approval al admin.
+En: Admin/ HR/ Payroll
+
+dentro de Payroll vamos a andir un tab section llamado: OT approval
+
+**OT Approval**
+Aqui es donde se muestran los approval de los overTimes de cada empleado,
+lo que significa que cuando un empleado pasa de 8 Horas, o las 40 Horas
+- Deben salir en "OT Approval"
+
+Al aprobarse el Payroll se sumara la cantidad a su Total ( dinero Disponible)
+
+Por ejemplo:
+Datos:
+
+Pago por hora: $35
+
+Horas totales trabajadas: 16.5
+
+Horas regulares: 8
+
+Horas overtime: todo lo que pasa de 8 horas
+
+Cálculo:
+
+Horas regulares:
+8 horas
+
+Horas overtime:
+16.5 − 8 = 8.5 horas
+
+Pago regular:
+8 × $35 = $280
+
+Pago overtime (1.5x):
+8.5 × ($35 × 1.5)
+= 8.5 × $52.5
+= $446.25
+
+Total ganado:
+$280 (regular) + $446.25 (overtime) = $726.25
+
+✅ Resumen final:
+
+Horas regulares: 8 h → $280
+
+Horas overtime: 8.5 h → $446.25
+
+Total ganado: $726.25
+------------------------------
+
+Cuando se pasa a Payout debe ya pasar con sus horas overtime,
+lo que significa que si el empleado va y hace clock in, y trabajas 16.5 horas
+Su payout deberias verse asi y calculado asi para todos los empleados.
+Cálculo:
+
+Horas regulares:
+8 horas
+
+Horas overtime:
+16.5 − 8 = 8.5 horas
+
+Pago regular:
+8 × $35 = $280
+
+Pago overtime (1.5x):
+8.5 × ($35 × 1.5)
+= 8.5 × $52.5
+= $446.25
+
+**payout employees information**
+mostrara, ejemplo:
+✅ Resumen final:
+- Horas regulares: 8 h → $280
+- Horas overtime: 8.5 h → $446.25
+- Total ganado: $726.25 (Disponibles)
+---------------------------
+
+Lo que deja al empleado con: - Total ganado: $726.25 al hacer clock out y sus over time ser approvados,
+si sus overtime son rechasados solo cobrara su monto regular.
+
+
+Debes asegurarte que todo el systema entieda estoo muy importante.
